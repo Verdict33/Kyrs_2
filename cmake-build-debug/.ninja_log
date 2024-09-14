@@ -1,7 +1,4 @@
 # ninja log v5
-5	1514	7477799858559851	CMakeFiles/untitled.dir/main.c.obj	8438fbc757753e9d
-1514	1660	7477799859979565	untitled.exe	c2a8c657f904fb1b
-8	155	7477838206686246	CMakeFiles/untitled.dir/diskretka/otnochenia.c.obj	d8961e8d3859469b
-4	1582	7477838220952034	CMakeFiles/untitled.dir/main.c.obj	8438fbc757753e9d
 5	1410	7477839566844730	CMakeFiles/untitled.dir/main.c.obj	8438fbc757753e9d
 1410	1486	7477839567582011	untitled.exe	a083b25641883b81
+8	155	7477838206686246	CMakeFiles/untitled.dir/diskretka/otnochenia.c.obj	d8961e8d3859469b

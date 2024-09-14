@@ -55,8 +55,14 @@ build CMakeFiles/untitled.dir/main.c.obj: C_COMPILER__untitled_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled.dir/diskretka/otnochenia.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/Sergei/CLionProjects/untitled/diskretka/otnochenia.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\diskretka\otnochenia.c.obj.d
+build CMakeFiles/untitled.dir/diskretka/otnochenia_not.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/Sergei/CLionProjects/untitled/diskretka/otnochenia_not.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\diskretka\otnochenia_not.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\diskretka
+
+build CMakeFiles/untitled.dir/diskretka/relation.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/Sergei/CLionProjects/untitled/diskretka/relation.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\diskretka\relation.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\diskretka
@@ -69,7 +75,7 @@ build CMakeFiles/untitled.dir/diskretka/otnochenia.c.obj: C_COMPILER__untitled_u
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/diskretka/otnochenia.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/diskretka/otnochenia_not.c.obj CMakeFiles/untitled.dir/diskretka/relation.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir

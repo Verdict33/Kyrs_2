@@ -4,5 +4,7 @@ project(untitled C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(untitled main.c
-        diskretka/otnochenia.c
-        diskretka/otnochenia.h)
+        diskretka/otnochenia_not.c
+        diskretka/otnochenia_not.h
+        diskretka/relation.c
+        diskretka/relation.h)
